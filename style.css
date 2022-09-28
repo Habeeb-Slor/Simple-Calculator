@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+body{
+  /* background-color: #e2e1e4; */
+  /* background:
+  linear-gradient(red, transparent),
+  linear-gradient(to top left, lime, transparent),
+  linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen; */
+  background-image: url('/Img/pexels-craig-adderley-1563356.jpg');
+  background-position: center;
+  background: cover;
+
+}
+section{
+  background-color: #42a5f7;
+  width: 360px;
+  height: 600px;
+  border-radius: 1rem;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+#clear{
+  color: rgb(238, 10, 10);
+}
+#solvee{
+  background-color: #2ba2fa;
+  color: #fff
+}
+section input{
+  width: 90%;
+  height: 160px;
+  background-color: #42a5f7;
+  border: none;
+  color: #000;
+  font-size: 34px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  /* padding: 20px; */
+}
+hr { 
+  display: block; 
+  /* margin-before: 0.5em; 
+  margin-after: 0.5em; 
+  margin-start: auto; 
+  margin-end: auto;  */
+  overflow: hidden; 
+  border-style: inset; 
+  border-width: 1px;
+  background-color: #306c95 !important;
+}
+table{
+  width: 100%;
+  /* background-color: #095092; */
+  /* border: 1px solid; */
+}
+table td{
+  width: 19%;
+  height: 70px;
+  text-align: center;
+  /* border: #fff 1px solid; */
+}
+table button{
+  width: 80%;
+  height: 64px;
+  border-radius: 4px;
+  font-size: 28px;
+  border: none;
+  /* background-color: #ccc; */
+  font-variant-numeric: oldstyle-nums;  
+  box-shadow: 2px 2px 2px #0971cc;
+  color: rgb(0, 0, 0);
+}
+table button:hover{
+  cursor: pointer;
+  background-color: #575050;
+}
